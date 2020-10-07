@@ -29,7 +29,16 @@ def Set_Inputs ():
     global Salary 
     global Period_Years 
     global Period_Months 
-    global Period_Days 
+    global Period_Days
+    global Reward
+
+    Duration_Type = 0
+    reason = 0
+    Salary = 0
+    Period_Years = 0
+    Period_Months = 0
+    Period_Days = 0
+    Reward = 0
 
     while 1:
         try:
